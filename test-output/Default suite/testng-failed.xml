@@ -5,9 +5,11 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
+          <include name="loginSwagLabs"/>
           <include name="beforeTest"/>
           <include name="testLoadPage"/>
           <include name="afterTest"/>
+          <include name="testEnterCredentials"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>

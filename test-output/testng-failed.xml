@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="password" value="secret_sauce"/>
   <parameter name="browser" value="Chrome"/>
+  <parameter name="dropDownCount" value="4"/>
   <parameter name="url" value="https://www.saucedemo.com/v1/"/>
   <parameter name="username" value="standard_user"/>
   <test thread-count="5" name="Test(failed)">
@@ -16,6 +17,14 @@
           <include name="testEnterCredentials"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="checkDropDownItems"/>
+          <include name="sortDropDownFromDataProviderOptions"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

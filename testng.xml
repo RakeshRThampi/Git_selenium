@@ -5,9 +5,11 @@
 	<parameter name="url" value="https://www.saucedemo.com/v1/"></parameter>
 	<parameter name="username" value="standard_user"></parameter>
 	<parameter name="password" value="secret_sauce"></parameter>
+	<parameter name="dropDownCount" value="4"></parameter>
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="tests.LoginPageTest" />
+			<class name="tests.HomePageTest" />
 		</classes>
 	</test> <!--
 	Test -->
