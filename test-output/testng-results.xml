@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T11:04:27 IST" name="Suite" finished-at="2025-02-14T11:04:32 IST" duration-ms="4286">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T11:04:27 IST" name="Test" finished-at="2025-02-14T11:04:32 IST" duration-ms="4286">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@36902638]" started-at="2025-02-14T11:04:27 IST" name="beforeTest" finished-at="2025-02-14T11:04:31 IST" duration-ms="3144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/v1/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testLoadPage()[pri:1, instance:tests.LoginPageTest@36902638]" started-at="2025-02-14T11:04:31 IST" name="testLoadPage" finished-at="2025-02-14T11:04:31 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadPage -->
+        <test-method signature="testEnterCredentials(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@36902638]" started-at="2025-02-14T11:04:31 IST" name="testEnterCredentials" finished-at="2025-02-14T11:04:31 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterCredentials -->
+        <test-method signature="loginSwagLabs()[pri:3, instance:tests.LoginPageTest@36902638]" started-at="2025-02-14T11:04:31 IST" name="loginSwagLabs" finished-at="2025-02-14T11:04:32 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSwagLabs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.LoginPageTest@36902638]" started-at="2025-02-14T11:04:32 IST" name="afterTest" finished-at="2025-02-14T11:04:32 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
