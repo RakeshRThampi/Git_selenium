@@ -6,8 +6,19 @@
   <parameter name="dropDownCount" value="4"/>
   <parameter name="url" value="https://www.saucedemo.com/v1/"/>
   <parameter name="username" value="standard_user"/>
+  <listeners>
+    <listener class-name="listener.TestListener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="checkDropDownItems"/>
+          <include name="sortDropDownFromDataProviderOptions"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
       <class name="tests.LoginPageTest">
         <methods>
           <include name="loginSwagLabs"/>
@@ -17,14 +28,6 @@
           <include name="testEnterCredentials"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
-      <class name="tests.HomePageTest">
-        <methods>
-          <include name="checkDropDownItems"/>
-          <include name="sortDropDownFromDataProviderOptions"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

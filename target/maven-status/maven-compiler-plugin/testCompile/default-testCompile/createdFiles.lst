@@ -2,5 +2,6 @@ base\TestBase.class
 tests\LoginPageTest.class
 tests\HomePageTest.class
 pages\LoginPage.class
-utilities\SeleniumUtils.class
 pages\HomePage.class
+utilities\SeleniumUtils.class
+listener\TestListener.class

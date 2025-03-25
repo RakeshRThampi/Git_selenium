@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T14:56:56 IST" name="Suite" finished-at="2025-02-14T14:57:03 IST" duration-ms="7457">
+  <suite started-at="2025-03-25T11:43:37 IST" name="Suite" finished-at="2025-03-25T11:43:45 IST" duration-ms="7871">
     <groups>
     </groups>
-    <test started-at="2025-02-14T14:56:56 IST" name="Test" finished-at="2025-02-14T14:57:03 IST" duration-ms="7457">
+    <test started-at="2025-03-25T11:43:37 IST" name="Test" finished-at="2025-03-25T11:43:45 IST" duration-ms="7871">
       <class name="tests.HomePageTest">
-        <test-method signature="checkDropDownItems(java.lang.String)[pri:1, instance:tests.HomePageTest@368f2016]" started-at="2025-02-14T14:57:03 IST" name="checkDropDownItems" finished-at="2025-02-14T14:57:03 IST" duration-ms="84" status="PASS">
+        <test-method signature="checkDropDownItems(java.lang.String)[pri:1, instance:tests.HomePageTest@7e6f74c]" started-at="2025-03-25T11:43:44 IST" name="checkDropDownItems" finished-at="2025-03-25T11:43:44 IST" duration-ms="85" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDropDownItems -->
-        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@368f2016]" started-at="2025-02-14T14:57:03 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-02-14T14:57:03 IST" duration-ms="83" status="PASS">
+        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@7e6f74c]" started-at="2025-03-25T11:43:44 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-03-25T11:43:44 IST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortDropDownFromDataProviderOptions -->
-        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@368f2016]" started-at="2025-02-14T14:57:03 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-02-14T14:57:03 IST" duration-ms="124" status="PASS">
+        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@7e6f74c]" started-at="2025-03-25T11:43:44 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-03-25T11:43:44 IST" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortDropDownFromDataProviderOptions -->
-        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@368f2016]" started-at="2025-02-14T14:57:03 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-02-14T14:57:03 IST" duration-ms="104" status="PASS">
+        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@7e6f74c]" started-at="2025-03-25T11:43:44 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-03-25T11:43:44 IST" duration-ms="106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortDropDownFromDataProviderOptions -->
-        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@368f2016]" started-at="2025-02-14T14:57:03 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-02-14T14:57:03 IST" duration-ms="114" status="PASS">
+        <test-method signature="sortDropDownFromDataProviderOptions(java.lang.Integer)[pri:2, instance:tests.HomePageTest@7e6f74c]" started-at="2025-03-25T11:43:44 IST" name="sortDropDownFromDataProviderOptions" data-provider="sortOptions" finished-at="2025-03-25T11:43:44 IST" duration-ms="114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
         </test-method> <!-- sortDropDownFromDataProviderOptions -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-02-14T14:56:56 IST" name="beforeTest" finished-at="2025-02-14T14:57:00 IST" duration-ms="3615" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7586beff]" started-at="2025-03-25T11:43:37 IST" name="beforeTest" finished-at="2025-03-25T11:43:43 IST" duration-ms="5969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testLoadPage()[pri:1, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-02-14T14:57:00 IST" name="testLoadPage" finished-at="2025-02-14T14:57:00 IST" duration-ms="33" status="PASS">
+        <test-method signature="testLoadPage()[pri:1, instance:tests.LoginPageTest@7586beff]" started-at="2025-03-25T11:43:43 IST" name="testLoadPage" finished-at="2025-03-25T11:43:43 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoadPage -->
-        <test-method signature="testEnterCredentials(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-02-14T14:57:00 IST" name="testEnterCredentials" finished-at="2025-02-14T14:57:00 IST" duration-ms="392" status="PASS">
+        <test-method signature="testEnterCredentials(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@7586beff]" started-at="2025-03-25T11:43:43 IST" name="testEnterCredentials" finished-at="2025-03-25T11:43:43 IST" duration-ms="292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEnterCredentials -->
-        <test-method signature="loginSwagLabs()[pri:3, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-02-14T14:57:00 IST" name="loginSwagLabs" finished-at="2025-02-14T14:57:03 IST" duration-ms="2677" status="PASS">
+        <test-method signature="loginSwagLabs()[pri:3, instance:tests.LoginPageTest@7586beff]" started-at="2025-03-25T11:43:43 IST" name="loginSwagLabs" finished-at="2025-03-25T11:43:44 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSwagLabs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-02-14T14:57:03 IST" name="afterTest" finished-at="2025-02-14T14:57:03 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.LoginPageTest@7586beff]" started-at="2025-03-25T11:43:44 IST" name="afterTest" finished-at="2025-03-25T11:43:45 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

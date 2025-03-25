@@ -2,12 +2,13 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import base.TestBase;
 import pages.HomePage;
-
+@Listeners(listener.TestListener.class)
 public class HomePageTest extends TestBase {
 	HomePage home;
 

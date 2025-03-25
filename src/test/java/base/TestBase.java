@@ -6,6 +6,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -22,18 +23,23 @@ public class TestBase {
 
 	@Parameters({ "browser", "url" })
 	@BeforeTest
-	public void beforeTest(@Optional("Chrome") String browser, String url) {
+	public void beforeTest(@Optional("Firefox") String browser, String url) {
 		System.out.println("TestBase::beforeTest() - Browser = " + browser + ", URL=" + url);
-		if (browser.equalsIgnoreCase("Chrome")) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			wait = new WebDriverWait(driver, Duration.ofSeconds(SeleniumUtils.WEBDRIVER_WAIT));
+		if (browser.equalsIgnoreCase("Firefox")) {
+			initializeBrowser(browser, url);
 		} else {
 			System.out.println("TestBase::beforeTest() - Browser not setup");
 			return;
 		}
+	}
+
+	private void initializeBrowser(String browser, String url) {
+		WebDriverManager.chromedriver().setup();
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(SeleniumUtils.IMPLICIT_WAIT));
+		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(SeleniumUtils.WEBDRIVER_WAIT));
 		driver.get(url);
 	}
 
